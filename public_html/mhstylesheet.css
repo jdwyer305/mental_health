@@ -1,0 +1,256 @@
+/* how to make block links with hovering color changes for active links */
+
+
+#home{
+	background-color: #acd79e;   	/*button background color */
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	word-spacing: 15px;
+	border-style: solid;
+	border-color: #309a0e;     	
+
+	/*border color */
+}
+
+#home:link, #home:visited {
+  background-color: #acd79e;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#home:hover, #home:active {
+  background-color: #5fb245;
+}
+
+/* end of active link sample */
+
+#info{
+	background-color: #acd79e;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	word-spacing: 15px;
+	border-style: solid;
+	border-color: #309a0e; 
+}
+
+#info:link, #info:visited {
+  background-color: #acd79e;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#info:hover, #info:active {
+  background-color: #5fb245;
+}
+
+#org{
+	background-color: #acd79e;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	word-spacing: 15px;
+	border-style: solid;
+	border-color: #309a0e; 
+}
+
+#org:link, #org:visited {
+  background-color: #acd79e;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#org:hover, #org:active {
+  background-color: #5fb245;
+}
+
+#line{
+	background-color: #acd79e;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	word-spacing: 15px;
+	border-style: solid;
+	border-color: #309a0e;
+}
+
+#line:link, #line:visited {
+  background-color: #acd79e;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#line:hover, #line:active {
+  background-color: #5fb245;
+}
+
+
+/* end of nav bar code */
+
+body{
+	background-color: #d7e3d4;
+}
+h1{
+	border-bottom: 2px solid #155900;
+	color: white;
+	text-align: center;
+	background-image: url(https://jpdwyer.rhody.dev/images/banner.jpg);
+}
+
+p{
+	color: #155900;
+}
+
+/* border around the picture */
+#scrabble{
+	display: block;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #309a0e;
+}
+
+
+
+div.stats{
+	border-style: solid;
+	border-color: #309a0e;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 5%;
+	text-align: center;
+	color: #155900;
+	background-color: #acd79e;
+}
+
+div.stat-links{
+	color: #155900;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+/* aligned the ribbon to bottom right of the page */
+#ribbon{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+
+
+#links {
+	font-family: 'Overpass', sans-serif;
+	font-size: .75em;
+
+}
+
+#email{
+	font-family: verdana, Arial, Geneva, Arial black;
+}
+
+#links:link{
+	color: blue;
+}
+
+#links:visited{
+	color: purple;
+}
+
+#links:hover{
+	color:red;
+}
+
+#form{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+
+/* tablet screen */
+
+@media screen and (max-width: 780px) {
+	#home{
+		width:7%;
+		font-size: 75%;
+		text-align: center;
+	}
+
+	#info{
+		width:7%;
+		font-size: 75%;
+		text-align: center;
+	}
+
+	#org{
+		width:7%;
+		font-size: 75%;
+		text-align: center;
+	}
+
+	#line{
+		width:7%;
+		font-size: 75%;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	#home{
+		width:8%;
+		font-size: 50%;
+		text-align: center;
+	}
+
+	#info{
+		width:12%;
+		font-size: 50%;
+		padding-right: 10%;
+	}
+
+	#org{
+		width:12%;
+		font-size: 50%;
+		padding-right: 10%;
+	}
+
+	#line{
+		width:8%;
+		font-size: 50%;
+		text-align: center;
+	}
+
+	h1{
+		font-size: 90%;
+	}
+
+	div.stats{
+		font-size: 80%;
+		text-align: center;
+	
+	}
+
+	div.stat-links{
+		font-size: 90%;
+	}
+
+	#scrabble{
+		display:block;
+		width: 70%;
+	}
+}
