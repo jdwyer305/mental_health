@@ -1,0 +1,26 @@
+#topbar{
+	background-color: blue;
+	color: white;
+	vertical-align: text-bottom;
+}
+
+.newsweek{
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#newsweek{
+	font-style: bold;
+}
+
+#bar{
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-right-style: solid;
+}
+
+p{
+	font-style: bold;
+
+}
